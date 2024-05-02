@@ -9,9 +9,8 @@
 <h1>Hola Mundo</h1>
 <div style="position:fixed; right:180px; bottom:10px; overflow:visible;" id="clippy">
 <table valign="top" width="130" height="309" border="0" background="http://www.irongeek.com/images/clippy.png" cellpadding="10">
-<tr><td valign="top"><font size="1">
-&nbsp;Hello, according to <a href="http://php-ids.org/">PHPIDS</a> it looks like you are trying to pwn my site.
-Would you like <a href="http://www.irongeek.com/i.php?page=videos/owasp-top-5-louisville">some help with that?</a>
+<tr><td valign="top"><font size="3">
+&nbsp;Hola !!! Sospecho que me estás atacando, necesitas que te ayude en algo? 
 </font></td></tr> </table> </div>
     
 
