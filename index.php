@@ -21,7 +21,7 @@ Would you like <a href="http://www.irongeek.com/i.php?page=videos/owasp-top-5-lo
 <script>
     $(document).ready(function(){
         // Ruta de la imagen de Clippy
-        var clippyImageSrc = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clippy-o-logo.svg/1200px-Clippy-o-logo.svg.png";
+        var clippyImageSrc = "http://www.irongeek.com/images/clippy.png";
         
         // Establecer la ruta de la imagen de Clippy
         $("#clippy-image").attr("src", clippyImageSrc);
