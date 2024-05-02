@@ -12,7 +12,12 @@
     <img id="clippy-image" src="" alt="Clippy">
     <p id="clippy-text">¡Hola! Soy Clippy.</p>
 </div>
-
+    <div style="position:fixed; right:180px; bottom:10px; overflow:visible;" id="clippy">
+<table valign="top" width="130" height="309" border="0" background="http://www.irongeek.com/images/clippy.png" cellpadding="10">
+<tr><td valign="top"><font size="1">
+&nbsp;Hello, according to <a href="http://php-ids.org/">PHPIDS</a> it looks like you are trying to pwn my site.
+Would you like <a href="http://www.irongeek.com/i.php?page=videos/owasp-top-5-louisville">some help with that?</a>
+</font></td></tr> </table> </div>
 <script>
     $(document).ready(function(){
         // Ruta de la imagen de Clippy
