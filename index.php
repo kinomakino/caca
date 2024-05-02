@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hola Mundo</title>
-    <!-- Add the stylesheet to the head -->
-    <link rel="stylesheet" type="text/css" href="clippy.css" media="all">
+    <title>Hola Mundo con Clippy</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <?php
-        // Esto es un comentario en PHP
-        echo "<h1>Hola Mundo</h1>";
-    ?>
 
-    <!-- jQuery 1.7+ -->
-    <script src="jquery.1.7.min.js"></script>
-    <!-- Clippy.js -->
-    <script src="clippy.min.js"></script>
-    <!-- Init script -->
-    <script type="text/javascript">
-        clippy.load('Merlin', function(agent){
-            // do anything with the loaded agent
-            agent.show();
-            agent.speak('¿Seguro que quieres hackearme? Mi nombre es Clippy.');
-        });
-    </script>
+<h1>Hola Mundo</h1>
+
+<div id="clippy-container">
+    <img id="clippy-image" src="" alt="Clippy">
+    <p id="clippy-text">¡Hola! Soy Clippy.</p>
+</div>
+
+<script>
+    $(document).ready(function(){
+        // Ruta de la imagen de Clippy
+        var clippyImageSrc = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clippy-o-logo.svg/1200px-Clippy-o-logo.svg.png";
+        
+        // Establecer la ruta de la imagen de Clippy
+        $("#clippy-image").attr("src", clippyImageSrc);
+    });
+</script>
+
 </body>
 </html>
